@@ -8,6 +8,7 @@ overrides:
   dependency-tree: 11.4.3
   '@isaacs/brace-expansion': ^5.0.1
   '@babel/plugin-transform-modules-systemjs': 7.29.4
+  dompurify: 3.4.12
   js-yaml@<3.15.0: 3.15.0
   minimatch@10: ^10.2.5
 
@@ -303,8 +304,8 @@ importers:
         specifier: ^1.11.21
         version: 1.11.21
       dompurify:
-        specifier: ^3.3.3
-        version: 3.4.0
+        specifier: 3.4.12
+        version: 3.4.12
       es-toolkit:
         specifier: ^1.45.1
         version: 1.45.1
@@ -5992,8 +5993,8 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  dompurify@3.4.0:
-    resolution: {integrity: sha512-nolgK9JcaUXMSmW+j1yaSvaEaoXYHwWyGJlkoCTghc97KgGDDSnpoU/PlEnw63Ah+TGKFOyY+X5LnxaWbCSfXg==}
+  dompurify@3.4.12:
+    resolution: {integrity: sha512-zQvGet8Z2sWbQhCmfFz/T5QWH2oBmjnqK3qvOjaqaNLrLEF912WamU+ohnTp0TCep/MFVHpdJuCZEdFOdTnEFg==}
 
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
@@ -15189,7 +15190,7 @@ snapshots:
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       color-string: 2.1.4
-      dompurify: 3.4.0
+      dompurify: 3.4.12
       highlight.js: 11.11.1
       html-to-image: 1.11.13
       immer: 10.2.0
@@ -16586,7 +16587,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  dompurify@3.4.0:
+  dompurify@3.4.12:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
